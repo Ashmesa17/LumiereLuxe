@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>User</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body class="bg-color m-5">
+        <button type="button" class="btn btn-outline-warning btn-lg btn-view mb-5" data-bs-toggle="modal" data-bs-target="#modalId">Register user</button>
+        <div
+            class="table-responsive"
+        >
+            <table
+                class="table table-dark"
+            >
+                <thead class="">
+                    <tr class="fs-4">
+                        <th class="text-warning" scope="col">Name</th>
+                        <th class="text-warning" scope="col">Last name</th>
+                        <th class="text-warning" scope="col">Email</th>
+                        <th class="text-warning" scope="col">messange</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="">
+                        <td scope="row">Ashlley Manuela</td>
+                        <td>Jaramillo Mesa</td>
+                        <td>Ashmesa17@gmail.com</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat possimus cum minus sit ipsam natus. <br> Praesentium, porro! Commodi, enim reiciendis sed in accusantium amet ea fugit id consequatur <br> repudiandae. Nesciunt.</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Natalia Maria</td>
+                        <td>Gonzalez Marmol</td>
+                        <td>Natagonzalez_01@gmail.com</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptate a dolorum unde ducimus, <br> amet soluta harum molestiae laborum in culpa aut! Mollitia delectus dignissimos necessitatibus! <br> Similique quia natus eligendi?</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Juan Esteban</td>
+                        <td>Velasquez Marin</td>
+                        <td>Juanvelasquez@gmail.com</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptate a dolorum unde ducimus, <br> amet soluta harum molestiae laborum in culpa aut! Mollitia delectus dignissimos necessitatibus! <br> Similique quia natus eligendi?</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Juan Jose</td>
+                        <td>Ospina Cardenas</td>
+                        <td>Juancardenas7865@gmail.com</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptate a dolorum unde ducimus, <br> amet soluta harum molestiae laborum in culpa aut! Mollitia delectus dignissimos necessitatibus! <br> Similique quia natus eligendi?</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Luz Adriana</td>
+                        <td>Mesa Cardona</td>
+                        <td>adrimesa0103@gmail.com</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptate a dolorum unde ducimus, <br> amet soluta harum molestiae laborum in culpa aut! Mollitia delectus dignissimos necessitatibus! <br> Similique quia natus eligendi?</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Isabella</td>
+                        <td>Sanchez Mesa</td>
+                        <td>Sanchesmesaisa@gmail.com</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptate a dolorum unde ducimus, <br> amet soluta harum molestiae laborum in culpa aut! Mollitia delectus dignissimos necessitatibus! <br> Similique quia natus eligendi?</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Button trigger modal -->
+        
+        <!-- Modal -->
+        <div
+            class="modal fade "
+            id="modalId"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modalTitleId"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">
+                            User data
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="" class="form-label">Name</label>
+                            <input type="text"class="form-control" name=""id="" aria-describedby="helpId"placeholder="Enter your name"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label"> Last name</label>
+                            <input type="text"class="form-control" name=""id="" aria-describedby="helpId"placeholder="Enter your last name"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Email</label>
+                            <input type="text"class="form-control" name=""id="" aria-describedby="helpId"placeholder="enter your email"/>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-outline-warning"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <button type="button" class="btn btn-warning">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            var modalId = document.getElementById('modalId');
+        
+            modalId.addEventListener('show.bs.modal', function (event) {
+                  // Button that triggered the modal
+                  let button = event.relatedTarget;
+                  // Extract info from data-bs-* attributes
+                  let recipient = button.getAttribute('data-bs-whatever');
+        
+                // Use above variables to manipulate the DOM
+            });
+        </script>
+        
+        
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

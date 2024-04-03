@@ -1,0 +1,141 @@
+
+
+body{
+    background-color: hsl(0, 0%, 2%);
+    font-family: "Playfair Display", serif; 
+
+}
+
+.navbar-brand{
+    color: #f3d1a4;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.9rem;
+}
+
+.image-primary{
+    padding-left: 50px;
+    opacity: 0.7;
+    border-radius: 60px;
+    width: 30%;
+}
+
+.Tittle{
+    font-size: 7rem;
+    padding-top: 40px;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-main{
+    margin: 90px;
+    height: 600px;
+    background-image: url(/img/39f7a285d29a99b3c7aa4c1f6958f79e.jpg);
+    background-repeat: no-repeat;
+    background-position: 79% 7%;
+    
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+.btn-services{
+    width: 65px ;
+    height: 62px;
+    border-radius: 100% ;
+    border-width: 5px ;
+}
+
+.container-services{
+    padding-top: 70px;
+}
+
+.carrusel-item img{
+    padding-left: 250px;
+    
+    
+
+}
+
+.card{
+    width: 300px;
+    margin: 10px;
+    border-radius: 40px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: o.5s;
+    opacity: 0.4;
+    
+}
+
+.btn-view{
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.diamond{
+    padding-left: 300px;
+    margin-top:150px ;
+    width: 1620px;
+    height: 450px;
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.text-diamond{
+    font-size: 4rem;
+    color: aliceblue;
+    font-family: "Oswald", sans-serif;
+}
+
+.img-girl{
+    border-radius: 45%;
+}
+
+.button-mesange{
+    padding-left: 500px;
+    margin-bottom: 15px;
+}
+
+.box{
+    border: 2px solid white;
+    width: 900px;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 350px;
+    
+}
+
+.form-control{
+    width: 100%;
+}
+
+.messange{
+    height: 200px;
+    width: 105%;
+
+}
+
+.bg-color{
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-send a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+
+}
